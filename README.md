@@ -13,12 +13,14 @@ Write a C program to read 3 characters one by one and print the characters in a 
 #include <stdio.h>
 int main() 
 {
-    char firstChar, secondChar, thirdChar;
-    scanf(" %c", &firstChar);
-    scanf(" %c", &secondChar);
-    scanf(" %c", &thirdChar);
-    printf("%c %c %c\n", thirdChar, secondChar, firstChar);
-    return 0;
+
+    char firstChar, secondChar, thirdChar;  
+    scanf(" %c", &firstChar); 
+    scanf(" %c", &secondChar);    
+    scanf(" %c", &thirdChar);    
+    printf("%c %c %c\n", thirdChar, secondChar, firstChar);    
+    return 0;   
+    
 }
 
 ## OUTPUT:
@@ -47,14 +49,18 @@ Write a C program to read A values and check whether A is positive number or not
 #include <stdio.h>
 int main() 
 {
+
     int a;
-    scanf("%d", &a);
-    if (a > 0) {
-        printf("Positive number\n");
-    } else {
-        printf("Not a positive number\n");
-    }
-    return 0;
+    scanf("%d", &a);    
+    if (a > 0) 
+    {    
+        printf("Positive number\n");       
+    }     
+    else {    
+        printf("Not a positive number\n");        
+    }    
+    return 0; 
+    
 }
 
 # OUTPUT:
@@ -85,7 +91,9 @@ Write a program to find minimum between two fraction numbers using conditional o
 ## PROGRAM:
 
 #include <stdio.h>
-int main() {
+int main()
+{
+
     int num1, denom1, num2, denom2;
     float fraction1, fraction2, minFraction;
     printf("Enter numerator and denominator for first fraction: ");
@@ -99,6 +107,7 @@ int main() {
     minFraction = (fraction1 < fraction2) ? fraction1 : fraction2;
     printf("Minimum fraction value: %.4f\n", minFraction);
     return 0;
+    
 }
 
 
@@ -131,6 +140,7 @@ Write a C program to check whether the input value is equal to 1 using simple if
 #include <stdio.h>
 int main() 
 {
+
     int inputValue;
     scanf("%d", &inputValue);
     if (inputValue == 1) {
@@ -139,6 +149,7 @@ int main()
         printf("Input is not equal to 1\n");
     }
     return 0;
+    
 }
 
 ## OUTPUT:
@@ -174,6 +185,7 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 #include <stdio.h>
 int main()
  {
+ 
     int mark1, mark2, mark3;
     float total, percentage;
     scanf("%d", &mark1);
@@ -197,6 +209,7 @@ int main()
         printf("Division = Fail\n");
     }
     return 0;
+    
 }
 
 ## OUTPUT:
