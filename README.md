@@ -23,6 +23,7 @@ int main()
 
 ## OUTPUT:
 
+<img width="1920" height="1080" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/bbfea2e5-20b3-485c-bb58-1257ee4041e3" />
 
 
 ## RESULT:
