@@ -49,7 +49,9 @@ Write a C program to read A values and check whether A is positive number or not
 # PROGRAM:
 
 #include <stdio.h>
+
 int main() 
+
 {
 
     int a;
@@ -93,7 +95,9 @@ Write a program to find minimum between two fraction numbers using conditional o
 ## PROGRAM:
 
 #include <stdio.h>
+
 int main()
+
 {
 
     int num1, denom1, num2, denom2;
@@ -140,7 +144,9 @@ Write a C program to check whether the input value is equal to 1 using simple if
 ## PROGRAM:
 
 #include <stdio.h>
+
 int main() 
+
 {
 
     int inputValue;
@@ -185,7 +191,9 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 ## PROGRAM:
 
 #include <stdio.h>
+
 int main()
+
  {
  
     int mark1, mark2, mark3;
