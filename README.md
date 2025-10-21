@@ -9,9 +9,8 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
-
+```
 #include <stdio.h>
-
 int main() 
 
 {
@@ -24,7 +23,7 @@ int main()
     return 0;   
     
 }
-
+```
 ## OUTPUT:
 
 <img width="1920" height="1080" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/bbfea2e5-20b3-485c-bb58-1257ee4041e3" />
@@ -47,7 +46,7 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
-
+```
 #include <stdio.h>
 
 int main() 
@@ -66,7 +65,7 @@ int main()
     return 0; 
     
 }
-
+```
 # OUTPUT:
 
 <img width="1920" height="1080" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/e8c4b016-67a8-487c-b25b-a57101172b58" />
@@ -93,7 +92,7 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
-
+```
 #include <stdio.h>
 
 int main()
@@ -115,7 +114,7 @@ int main()
     return 0;
     
 }
-
+```
 
 ## OUTPUT:
 
@@ -142,7 +141,7 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
-
+```
 #include <stdio.h>
 
 int main() 
@@ -159,7 +158,7 @@ int main()
     return 0;
     
 }
-
+```
 ## OUTPUT:
 
 <img width="1920" height="1080" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/53a77ef2-0f7f-40f0-a477-21b937c22ee3" />
@@ -189,7 +188,7 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 10.	End
 
 ## PROGRAM:
-
+```
 #include <stdio.h>
 
 int main()
@@ -221,7 +220,7 @@ int main()
     return 0;
     
 }
-
+```
 ## OUTPUT:
 
 <img width="1920" height="1080" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/9527f76d-cd27-4a01-b00f-47d0c310462d" />
